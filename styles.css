@@ -1,0 +1,27 @@
+body {
+   font-family: 'Teko', sans-serif;
+   background-color: #FEFAE0;
+}
+
+h1 {
+    text-align: center;
+    color: #283618;
+}
+
+div.container {
+    text-align: center;
+    margin: auto;
+    border: 2px solid #BC6C25;
+    border-radius: 10px;
+    width: 200px;
+}
+
+ul.recipe-list {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
