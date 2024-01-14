@@ -6,6 +6,14 @@ body {
 h1 {
     text-align: center;
     color: #283618;
+    letter-spacing: 1px;
+    font-size: 48px;
+}
+
+h1:hover {
+    color: #BC6C25;
+    transition-duration: .2s;
+    cursor: pointer;
 }
 
 .image {
@@ -15,5 +23,10 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
 }
 

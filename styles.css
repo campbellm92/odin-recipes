@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     color: #283618;
     font-size: 48px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -34,9 +35,12 @@ h2 {
     width: 300px;
     height: 400px;
     margin: 20px;
+    border-style: inset;
 }
 
 .container:hover {
+    transform: scale(.95);
+    transition-duration: 0.65s;
 
 }
 
